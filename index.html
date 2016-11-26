@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>HTML&CSS</title>
+<body>
+    <div id="content" class="center-block container-fluid">
+        <img src="img/html-open-file-format.png" width="100px" alt="html">
+        <h1>HTML&CSS</h1>
+        <h2>Блочные и строчные элементы</h2>
+        <div class="container-fluid">
+    <div id="block" class="col-lg-6 col-md-6 col-sm-6">
+        <div>БЛОЧНЫЙ</div>
+        <div>ЭЛЕМЕНТ</div>
+    </div>
+    <div id="line" class="col-lg-6 col-md-6 col-sm-6">
+        <span>СТРОЧНЫЙ</span>
+        <span>ЭЛЕМЕНТ</span>
+    </div>
+    </div>
+        <h2>Свойства margin, padding и border</h2>
+        <img class="center-block" src="img/scheme.png" alt="scheme" width="500">
+        <h3>margin</h3>
+        <p>Устанавливает величину отступа от каждого края элемента. Отступом является пространство от границы текущего элемента до внутренней границы его родительского элемента.</p>
+        <h3>padding</h3>
+        Устанавливает значение полей вокруг содержимого элемента. Полем называется расстояние от внутреннего края рамки элемента до <i>воображаемого</i> прямоугольника, ограничивающего его содержимое.
+        <h3>border</h3>
+        <br>Универсальное свойство <b>border</b> позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента.
+        <div id="border">
+        <span style="border: dotted 2px">border</span>
+        <span style="border: dashed 2px">border</span>
+        <span style="border: solid 2px">border</span>
+        <span style="border-style: double">border</span>
+        <span style="border-style: groove">border</span>
+        <span style="border-style: ridge">border</span>
+        <span style="border: inset 2px">border</span>
+        <span style="border: outset 2px">border</span>
+        </div>
+        <p>Каждое свойство принимает дополнительные параметры:</p>
+        <ul>
+            <li>top</li>
+            <li>bottom</li>
+            <li>right</li>
+            <li>left</li>
+        </ul>
+        <p>Если заменить <b>ul</b> на <b>ol</b>, то список пронумеруется:</p>
+        <ol>
+            <li>top</li>
+            <li>bottom</li>
+            <li>right</li>
+            <li>left</li>
+        </ol>
+        <div id="side">
+            <span style="border-top: solid 2px">border</span>
+            <span style="border-bottom: solid 2px">border</span>
+            <span style="border-right: solid 2px">border</span>
+            <span style="border-left: solid 2px">border</span>
+        </div>
+        <h2>Позиционирование</h2>
+        <div>
+            <div id="relative" class="col-lg-2">
+                <div>relative</div>
+                <div>relative</div>
+            </div>
+            <div id="absolute" class="col-lg-2">
+                <div>absolute</div>
+                <div>absolute</div>
+            </div>
+            <div id="fixed" class="col-lg-2">
+                <div>fixed</div>
+                <div>fixed</div>
+            </div>
+            <div id="float" class="col-lg-6">
+                <div>float</div>
+                <div>float</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
